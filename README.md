@@ -1,4 +1,1 @@
-# jjttp
-Class Materials for TTP.
-
-My copy.
+My version of the travelling website.
