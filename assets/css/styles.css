@@ -7,7 +7,7 @@
 }
 
 html {
-	font: normal 16px "Product sans";
+	font: normal 16px sans-serif;
 	color: #555;
 }
 
@@ -19,12 +19,14 @@ nav {
 a {
 	text-decoration: none;
 	opacity: 0.75;
-	color: rgb(255, 255, 255);
+	color: #fff;
 }
 
 a:hover {
-	color: #1768e9;
+	color: #000000;
 	opacity: 1;
+	/* Contact Us button underlines when hovered */
+	text-decoration: underline;				
 }
 
 a.btn {
@@ -32,7 +34,7 @@ a.btn {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	background-color: #f5b145;
+	background-color: #f6bd60;
 	opacity: 1;
 }
 
@@ -57,7 +59,7 @@ section:not(.hero):nth-child(even) {
 hr {
 	width: 250px;
 	height: 3px;
-	background-color: #f5b145;
+	background-color: #f6bd60;
 	border: 0;
 	margin-bottom: 50px;
 }
@@ -84,11 +86,6 @@ section p {
 }
 
 /*Header Styles*/
-/* trying to change the cursor when hovering over */
-h2 nav li a:hover{
-	color: rgb(255, 217, 0);
-}
-
 
 header {
 	position: absolute;
@@ -109,7 +106,7 @@ header {
 }
 
 header h2 {
-	font-family: "Product sans", sans-serif;
+	font-family: "Quicksand", sans-serif;
 }
 
 header nav {
@@ -119,7 +116,6 @@ header nav {
 
 header nav li {
 	margin: 0 15px;
-
 }
 
 @media (max-width: 800px) {
@@ -149,10 +145,10 @@ header nav li {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-size: cover;
+	background-size: contain;
 	z-index: -1;
 	background-color: #80a3db;
-	opacity: .90;
+	opacity: .75;
 }
 
 .hero h1 {
@@ -243,7 +239,7 @@ header nav li {
 }
 
 .packages .grid li i {
-	color: #f5b145;
+	color: #f6bd60;
 }
 
 .packages .grid li h4 {
@@ -314,7 +310,7 @@ footer {
 	align-items: center;
 	justify-content: space-around;
 	background-color: #84A59D;
-	color: black;
+	color: #fff;
 	padding: 20px 0;
 }
 
